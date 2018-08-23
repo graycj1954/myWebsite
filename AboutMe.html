@@ -2,16 +2,46 @@
   <head>
     <title>About Me</title>
     <style>
+      body {
+        font-family: 'Courier New', Courier, monospace;
+      }
       h1 {
         text-align: center;
         color: cornflowerblue;
         background-color: #000000;
-        border: outset 4px cornflowerblue;
+        border: ridge 5px cornflowerblue;
       }
+        ul.nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #888888;
+            border: inset 3px #ffd700;
+        }
+        li.nav {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: #ffd700;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+          li a:hover {
+            background-color:#aaaaaa
+          }      
     </style>
   </head>
   
   <body>
     <h1>About Me</h1>
+            <ul class="nav">
+              <li class="nav"><a href="myWebsite.html">The Blog</a></li>
+              <li class="nav"><a href="#Everything">Everything</a></li>
+            </ul>
+    <br/>
+    <img src="caleb.JPG" alt="Me (Caleb)" width= 500px height= 500px></img>
   </body>
 </html>
