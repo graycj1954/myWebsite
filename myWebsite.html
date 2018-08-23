@@ -5,15 +5,38 @@
         body {
             color: lime;
             background: black;
+            font-family: 'Courier New', Courier, monospace;
         }
         h1 {
             text-align: center;
             border: ridge 5px lime;
+        }
+        h2 {
+            text-align: center;
+            border: outset 2px #ff0000;
+        }
+        ul.nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #33333;
+            border-style: groove;
+        }
+        li.nav {
+            float: left;
+        }
+        li a {
+            display: block;
         }
         </style>
     </head>
 
     <body>
         <h1>Welcome to the Blog</h1>
+        <ul class="nav">
+            <li class="nav"><a href="#AboutMe">About Me</a></li>
+            <li class="nav"><a href="#Everything">Everything</a></li>
+        </ul>
     </body>
 </html>
